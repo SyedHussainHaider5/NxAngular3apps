@@ -1,1 +1,39 @@
-<p>loginform works!</p>
+<div id = "main">
+    <div class="login-container">
+        <!-- <h2>Users</h2>
+        <ul>
+          <li *ngFor="let item of users">{{item}}</li>
+        </ul> -->
+        
+        <h2>Login</h2>
+        <form>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              
+              required
+              
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              
+              required
+            />
+          </div>
+          <button type="submit" >Login</button>
+          <!-- <br>
+          <a routerLink="/signup">Signup Now!</a>
+          <a routerLink="/counter">Counter Example</a>
+          <app-displaydata [username] = "username" [password] = "password" (newUserEvent) = "addUser($event)" ></app-displaydata> -->
+        </form>
+      </div>
+      
+</div>

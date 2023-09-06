@@ -1,0 +1,9 @@
+#main{
+    display: flex;
+    flex-direction: column;
+}
+#coverimage{
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+}
